@@ -1,0 +1,84 @@
+/* Cambia el color de fondo del sitio web */
+body {
+    text-align:justify ;
+    background-color: #f8e8f9; /* Fondo lila suave */
+    color: #4d004d; /* Texto por defecto en morado oscuro */
+}
+
+/* Cambia el color del título principal */
+header h1 {
+    color: #5a005a; /* Morado oscuro para el encabezado principal */
+    font-size: 2em; /* Texto más grande para el encabezado */
+    font-family: 'Georgia', serif; /* Fuente elegante para el encabezado */
+}
+
+/* Cambia el tamaño del texto y el color para las descripciones */
+.descripcion {
+    font-size: 1.2em; /* Texto ligeramente más grande */
+    color: #4d004d; /* Texto en morado oscuro */
+    font-family: 'Arial', sans-serif; /* Fuente estándar y limpia */
+}
+
+/* Texto con ID 'autor' en negro con tamaño modificado */
+#autor {
+    font-family: 'Courier New', Courier, monospace; /* Fuente monoespaciada */
+    color: #000000; /* Texto negro */
+    font-size: 1.1em; /* Tamaño del texto ligeramente mayor */
+    font-weight: bold; /* Texto en negrita */
+}
+
+/* Cambia el estilo del pie de página en negro */
+#contacto {
+    font-family: Arial, sans-serif; /* Fuente Arial */
+    color: #000000; /* Texto negro */
+    font-size: 0.9em; /* Texto ligeramente más pequeño */
+}
+
+/* Listas principales en morado oscuro */
+ul li {
+    color: #4d004d; /* Texto en morado oscuro */
+    font-size: 1em; /* Tamaño estándar */
+    font-family: 'Verdana', sans-serif; /* Fuente clara */
+}
+
+/* Sublistas con texto negro */
+ul ul li {
+    color: #000000; /* Texto en negro */
+    font-size: 0.9em; /* Texto ligeramente más pequeño */
+    font-family: 'Verdana', sans-serif; /* Fuente clara */
+}
+.menu  li a { color :#5e0f5e;
+    text-indent:none;
+
+}
+.menu a:hover{
+    color: hotpink;
+}
+.Titulos:hover{color: darkslateblue; 
+
+}
+.rh { display: flex;              
+      align-items: center;         
+      gap: 10px;                    
+                                                                                                                                        border: 1px solid #ccc;                                                                                                                                       padding: 10px;  
+}
+/*acá se aplica el modelo caja*/
+.respuestas h2{padding:0px 0px 0px 20px  ; 
+
+}
+/*acá se aplica el modelo caja*/
+h1 { margin: 3px ;
+
+}
+/*acá se aplica el modelo caja*/
+table { margin: 10px 100px 10px 100px;
+
+
+}
+/*acá se aplica el modelo caja*/
+.rh img{ width: 200px;    height: auto; 
+   
+
+}
+.rh p{margin:0px;}
+/*acá se aplica el modelo caja*/
